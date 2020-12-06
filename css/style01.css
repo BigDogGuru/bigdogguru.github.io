@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #572707;
+  margin: 0;
+}
+
+h1 + p {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#img-div {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#image {
+  width: 70vw;
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 1rem 1.5rem #572707;
+          box-shadow: 0 1rem 1.5rem #572707;
+}
+
+#img-caption {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  border-bottom: 0.2rem solid rgba(87, 39, 7, 0.25);
+  width: 30%;
+  margin: -0.25rem auto 0;
+}
+
+#tribute-info {
+  margin-top: 3rem;
+  padding: 4rem;
+}
+
+#tribute-info ul {
+  list-style: none;
+}
+
+#tribute-info li {
+  text-align: left;
+  margin: 1rem 0;
+}
+
+#quote {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+#cite {
+  font-size: 1.8rem;
+}
+
+#tribute-link-text {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+#tribute-link {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=style01.css.map */
